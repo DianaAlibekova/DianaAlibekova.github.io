@@ -1,2 +1,18 @@
-# DianaAlibekova.github.io
-30MFF Website- Major Help
+# FirstWebsiteAssignment.github.io
+CommLab
+Diana Alibekova
+Assignment #1: 30MFF Website
+21.09.2023
+
+
+Project Name: Major Help. Make your major choice with us. 
+Project Description: 
+	The project is dedicated to helping students decide their majors. The movie “What’s your Major? Dilemma” shows the struggle with the choice of a major relatable to many students, representing the actuality of the issue. Because of this, the website doesn’t only raise the problem but provides ways of solving it through advice and a contact page for professionals such as the Career Development Center and Academic Resource Center. Although the contact page is useful for NYUAD students only, the advice page can benefit the general student body. Overall, the website aims to assist students in their choice of major. 
+
+Process: In order to implement the concept, the website should start with a piece of information, which would be relatable to the audience. In this particular case, the website starts with the movie “What’s your major? Dilemma” representing the main issue of the student body in a slightly comedic style to cheer up the audience. It also has a comforting function as it shows that others are aware of their issue and they are not alone in this overwhelming process of choosing a professional career path. This sub-page is followed by the general advice about how to choose the major step-by-step. As the last step is to contact the professionals, this sub-page is followed by the contact information of the Career Development Center and Academic Resource Center. Additionally, the backstage photo carousel was added as the last sub-page because it isn’t important in achieving the end purpose of the website but still adds some fun. 
+
+Reflection/Evaluation: This should book the initial concept and talk about whether your expectations and goals were met while building the final working version.
+Overall, my expectations and goals were met in the process of building the final work because all the necessary pages such as the movie, pieces of advice, and the contacts of professionals were shown successfully. However, the last sub-page with the backstage photos needs improvements because I couldn’t make the slideshow display the image automatically when the website is opened. The user has to click on the dots to display the images and after that, the “previous” and “next” buttons work. Although this is a slight inconvenience, it still affects the user satisfaction. 
+During the process, I had many challenges and difficulties. First, it was hard for me to make the animation on the main page work automatically. The animation itself was created on canva and saved as the video. I tried many things such as muting the video and displaying automatic play, but it still didn’t work. After a long process of brainstorming and thinking logically, I tried to convert the video into a gif and insert it into the code as the image. Thankfully, that worked and the animation automatically plays as a gif when the website is opened and goes on and on. Moreover, another challenge was with the positioning. Although the YouTube videos and materials provided on BrightSpace helped a lot to understand how different positioning such as “absolute”, “relative”, etc. work, there are still grey areas in practice. Many things worked intuitively by changing the positioning and checking its work by refreshing the page. 
+Talking about the comparison with the wireframing and the end result, there are many differences because the concept of the wireframing differs too. In other words, the wireframing aimed to present the movie itself as if it was displayed on movie platforms such as Netflix. However, while developing the website, I started thinking about the utilization of the movie in a broader context. As the movie shows the main issue of the struggle with the major, it would be better to not just show the problem, but try to solve it on a platform the movie is presented. Consequently, I came up with a new concept for the website to help the students with a major choice struggle. 
+
