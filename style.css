@@ -1,0 +1,194 @@
+/* the positioning and size of logo "Major Help" at the top left corner */
+#logo {
+position:absolute;
+  height: 45px;
+  width: auto;
+}
+/* the design of the buttons on the top of the website */
+button {
+  background-color: white;
+  border: none;
+  position: relative;
+  left: 300px;
+  padding: 10px 70px;
+  margin: 5px;
+  font-size: 15px;
+  font-family: Rubik, PT Sans, Lato;
+}
+/* to change the color of the text in button when mouse is over it */
+/* An example of the code from "How TO - Three Column Layout" by W3 schools. Source: https://www.w3schools.com/howto/howto_css_three_columns.asp was used in writing this code */
+button:hover {
+  color: orange;
+}
+
+body {
+  padding: 20px;
+  margin: 0;
+}
+
+/* every heading has the same design */
+h2{
+  position: relative;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Rubik, PT Sans, Lato;
+  color: #333;
+  padding: 80px 0 0 0;
+  margin: 10px;
+}
+
+/* every sub-heading has the same design */
+h3{
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  font-family: Rubik, PT Sans, Lato;
+  font-weight: normal;
+  color: #666;
+  padding: 0;
+  margin: 0 10px 30px 10px;
+}
+
+#gif {
+  width: 100%;   /* so the gif width is for the whole screen */
+  padding: 55px 0 0 0;
+}
+
+
+/* the second section structure of the video on left and actors' photo on right */
+.video_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: top;
+}
+
+#film {
+  width: 67%;
+  height: auto;
+}
+
+#actors_photo {
+  width: 90%;
+  height: auto;
+  margin: 0 30px 0 40px;
+}
+
+/* the design of the paragraph (font size, color, etc) about production team and short summary of video under the film */
+p {
+  font-size: 17px;
+  color: #333;
+  font-family: Rubik, PT Sans, Lato;
+  font-weight: normal;
+  color: #333;
+  margin:0
+}
+
+/* here the design of the sub-page about advice starts */
+/* the size and the positioning of the images in the class "shown-advice" */
+.shown-advice {
+ width: 50%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 20px;
+ }
+
+ /* glowing effect on the image when the mouse over the image (this gives a hint that the image should be clicked on) */
+ /* An example of the code from the "Apply glowing effect to the image using HTML and CSS" by riyamathur. Source https://www.geeksforgeeks.org/apply-glowing-effect-to-the-image-using-html-and-css/ was used. */
+ .shown-advice:hover{
+    color: #111;
+    background: greenyellow;
+    box-shadow: 0 0 20px greenyellow;
+}
+
+/* the default for the hidden-advice is to be hidden, which is achieved by not displaying it */
+    .hidden-advice {
+        display: none;
+      }
+
+/* the design of the sub=page "background photos" starts here */
+/* An example of the code from "How TO - Slideshow" by W3 Schools. Source: https://www.w3schools.com/howto/howto_js_slideshow.asp is used to create this code. */
+
+* {box-sizing:border-box}
+
+/* the size and positioning of the slideshow*/
+.slideshow-container {
+  max-width: 70%;
+  position: relative;
+  margin: auto;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+/* the images are hidden by default */
+.mySlides {
+  display: none;
+}
+
+/* the size, font and positioning of the prev and next buttons*/
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  user-select: none;
+}
+/* making the button "prev" rounded from two sides */
+.prev {
+  border-radius: 0 100px 100px 0;
+}
+/* Positioning the button "next" to the right of slideshow and making the button rounded from two other sides */
+.next {
+  right: 0;
+  border-radius: 100px 0 0 100px;
+}
+
+/* the color of the buttons changes when the mouse over them */
+.prev:hover, .next:hover {
+  background-color: orange;
+}
+
+/* The size, design, etc of the buttons*/
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+/* the color of the active dots change to orange */
+.active, .dot:hover {
+  background-color: orange;
+}
+
+/* contact us page columns and rows */
+.column {
+  float: left;
+  width: 32%;
+  padding: 0;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  margin: 100px 0 200px 0;
+}
