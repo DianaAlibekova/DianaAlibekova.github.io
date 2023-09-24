@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>uni resources</title>
+<link rel="stylesheet" href="style.css"/>
+<script src="index.js"> </script>
+</head>
+<body>
+
+<!-- the top of the page with all the necessary navigation buttons and logo -->
+<img id="logo" src="images/logo.jpg" alt="Logo">
+<button type="button" onclick="location.href='#movie_link'">Watch the movie</button>
+<button type="button" onclick="location.href='#advices'">Advices</button>
+<button type="button" onclick="location.href='#contact_us'">Contact us</button>
+<button type="button" onclick="location.href='#backstage'">Backstage photos</button>
+
+
+<!-- the home sub-page starts here with heading and subheading -->
+<div class="container">
+  <div class="box">
+    <h2 id="home">MAKE YOUR MAJOR CHOICE WITH US</h2>
+    <h3 class="homeheads">You are on the right page to make a decision!</h3>
+  </div>
+</div>
+
+<!-- animated gif on the main sub-page -->
+<div>
+  <img id="gif" src="images/major_video.gif" alt="gif">
+</div>
+
+<!-- second sub-page with the movie starts here with heading and subheading -->
+<div>
+<h2 id="movie_link">WHAT'S YOUR MAJOR? DILEMMA</h2>
+<h3>this short movie is relatable for many students</h3>
+</div>
+
+<!-- movie with the cast on the right hand side of the video-->
+<div class="video_container">
+  <video id="film" autoplay muted controls>
+        <source src="videos/film.mp4" type="video/mp4">
+    </video>
+    <div class="actor_container">
+      <img id="actors_photo" src="images/CAST.png" alt="actors">
+    </div>
+    </div>
+
+  <!-- small section under the movie about the movie (short summary and the production team) -->
+  <div>
+  <p><span style="visibility: hidden">&#8203;</span></p> <!--to create a space between the video and the summary-->
+    <p><b>Screenwriter</b>: Diana <span style="visibility: hidden">&#8203;</span> <span style="visibility: hidden">&#8203;</span> <span style="visibility: hidden">&#8203;</span><span style="visibility: hidden">&#8203;</span> <b>Camera Crew</b>: Sara, Alreem, Diana <span style="visibility: hidden">&#8203;</span> <span style="visibility: hidden">&#8203;</span><b>Film editor</b>: Diana</p>
+    <p>The movie "What's your major? Dilemma" is about the struggle of choosing major, which resonates with many individuals.</p>
+    <p>The film conveys the message that experiencing uncertainties in selecting a major is a normal and important part of personal and academic growth.</p>
+    </div>
+
+<!-- third sub-page about the advices starts here with heading and subheading-->
+<h2 id="advices">YOU ARE NOT ALONE</h2>
+<h3>Follow these steps (click on images to read more)</h3>
+
+<!-- the section with the animated images (more in the index.js). Each image with the detailed advice corresponds to the image with the its advice title. Overall, five advices are shown here. -->
+<!-- Advices are taken from the article "How to Choose a College Major: 5 Steps for Succes" by Toni Critelli (2023), St. John's University. Source: https://www.stjohns.edu/news-media/johnnies-blog/how-choose-college-major-5-steps-succes -->
+<div class="advice-container">
+        <img id="firstAdvice" src="images/advices/1.png" alt="Click it" class="shown-advice">
+        <img id="firstAdviceText" src="images/advices/2.png" alt="hidden advice" class="hidden-advice">
+    </div>
+
+    <div class="advice-container">
+            <img id="secondAdvice" src="images/advices/3.png" alt="Click it" class="shown-advice">
+            <img id="secondAdviceText" src="images/advices/4.png" alt="hidden advice" class="hidden-advice">
+        </div>
+
+        <div class="advice-container">
+                <img id="thirdAdvice" src="images/advices/5.png" alt="Click it" class="shown-advice">
+                <img id="thirdAdviceText" src="images/advices/6.png" alt="hidden advice" class="hidden-advice">
+            </div>
+
+            <div class="advice-container">
+                    <img id="fourthAdvice" src="images/advices/7.png" alt="Click it" class="shown-advice">
+                    <img id="fourthAdviceText" src="images/advices/8.png" alt="hidden advice" class="hidden-advice">
+                </div>
+
+                <div class="advice-container">
+                        <img id="fifthAdvice" src="images/advices/9.png" alt="Click it" class="shown-advice">
+                        <img id="fifthAdviceText" src="images/advices/10.png" alt="hidden advice" class="hidden-advice">
+                    </div>
+
+
+  <!-- sub-page about the contact information starts here -->
+    <h2 id="contact_us">CONTACT US</h2>
+    <h3>Do you need in-person help? NYUAD is ready to provide you with all resources</h3>
+
+<!-- the contact information in three columns -->
+<!-- An example of the code from "How TO - Three Column Layout" by W3 schools. Source: https://www.w3schools.com/howto/howto_css_three_columns.asp was used as a sample in writing this code-->
+    <div class="row">
+      <!-- first column -->
+       <div class="column">
+          <img class="center" src="images/phone_email.png" alt="email" style="width:20%">
+              <p class="center"><b>Career Development Center</b></p>
+              <p class="center"><b>E-mail:</b><a href="mailto: nyuad.career@nyu.edu">nyuad.career@nyu.edu</a></p>
+              <p class="center"><b>Phone:</b>+971 2-628-4141</p>
+              <p class="center"><a href="https://nyu.joinhandshake.com/login">Schedule an appointment</a></p>
+                  <p><span style="visibility: hidden">&#8203;</span></p>
+                  <p><span style="visibility: hidden">&#8203;</span></p>
+              <p class="center"><b>Academic Resource Center</b></p>
+              <p class="center"><b>E-mail:</b><a href="mailto: nyuad.arc@nyu.edu">nyuad.arc@nyu.edu</a></p>
+              <p class="center"><b>Phone:</b>+971-2-628-4311</p>
+              <p class="center"><a href="https://nyu.starfishsolutions.com/starfish-ops/instructor/serviceCatalog.html?tenantId=9311#/">Schedule an appointment</a></p>
+        </div>
+      <!-- second column -->
+        <div class="column">
+          <img class="center" src="images/address.png" alt="address" style="width:20%">
+             <p class="center"><b>Career Development Center</b></p>
+             <p class="center"><b>Location:</b>Campus Center, Ground Floor</p>
+             <p class="center"><b>Walk-in Hours:</b> Mon-Thu: 2-4pm
+               Fri: 3-4pm</p>
+                  <p><span style="visibility: hidden">&#8203;</span></p>
+             <p class="center"><b>Academic Resource Center</b></p>
+             <p class="center"><b>Location:</b>Campus Center (C2), Level 2, E203-228</p>
+             <p class="center"><b>Drop-in Hours(online):</b> Mon-Thu: 2-4pm
+               Fri: 10am-12pm</p>
+            <p class="center"><a href="https://nyu.zoom.us/j/7818754894">zoom link</a></p>
+         </div>
+      <!-- third column -->
+        <div class="column">
+          <img class="center" src="images/website_links.png" alt="website" style="width:20%">
+             <p class="center"><b>Career Development Center</b></p>
+            <p class="center"><b>Website:</b><a href="https://students.nyuad.nyu.edu/student-affairs/career-development/"> visit CDC page</a></p>
+            <p class="center"><b>Social media:</b><a href="https://www.instagram.com/nyuadcdc/">@nyuadcdc</a></p>
+                    <p><span style="visibility: hidden">&#8203;</span></p>
+                    <p><span style="visibility: hidden">&#8203;</span></p>
+                    <p><span style="visibility: hidden">&#8203;</span></p>
+            <p class="center"><b>Academic Resource Center</b></p>
+            <p class="center"><b>Website:</b><a href="https://students.nyuad.nyu.edu/academics/academic-resources/"> visit ARC page</a></p>
+            <p class="center"><b>Social media:</b><a href="https://www.instagram.com/nyuadarc/">@nyuadarc</a></p>
+        </div>
+</div>
+
+<!-- sub-page about the backstage photos starts here with heading and subheading -->
+<h2 id="backstage">BACKSTAGE PHOTOS</h2>
+<h3>It was a fun process. Enjoy some shots from filming.</h3>
+
+<!-- The photo slideshow (carousel) starts here with five backstage images-->
+<!-- //An example of the code from "How TO - Slideshow" by W3 Schools. Source: https://www.w3schools.com/howto/howto_js_slideshow.asp is used to create this code. -->
+<div class="slideshow-container">
+  <div class="mySlides">
+    <img class="backstage" src="images/backstage_1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img class="backstage" src="images/backstage_2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img class="backstage" src="images/backstage_3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img class="backstage" src="images/backstage_4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img class="backstage" src="images/backstage_5.jpg" style="width:100%">
+  </div>
+
+  <!-- buttons responsible for the previous and next photo function -->
+  <a class="prev" onclick="plusSlides(-1)"><</a>
+  <a class="next" onclick="plusSlides(1)">></a>
+
+  <!-- Dots corresponding to each image in a photo carousel -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+</div>
+
+
+</body>
+</html>
